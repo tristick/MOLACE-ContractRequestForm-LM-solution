@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "molace-contract-request-form-lm-solution-client-side-solution",
+    "id": "6f8ddd58-c140-4223-966b-f029c9121db7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "molace-contract-request-form-lm-solution description"
+      },
+      "longDescription": {
+        "default": "molace-contract-request-form-lm-solution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "molace-contract-request-form-lm-solution Feature",
+        "description": "The feature that activates elements of the molace-contract-request-form-lm-solution solution.",
+        "id": "ece53c97-be6d-43e6-a167-cffc55045b70",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/molace-contract-request-form-lm-solution.sppkg"
+  }
+}

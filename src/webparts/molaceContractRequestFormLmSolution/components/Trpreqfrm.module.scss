@@ -1,0 +1,137 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+
+.ql-toolbar  {
+	display: block !important;
+}
+
+.ql-tooltip {
+    display: block !important;
+}
+.stackContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; /* Adjust the value to set the desired gap */
+}
+
+.extpartiesstackContainer {
+	display: flex;
+  //flex-direction: row;
+	width: '300px';
+	gap: 10px; /* Adjust the value to set the desired gap */
+  }
+
+ .textField-192{
+  gap:30px;
+
+  flex-direction: row;
+  
+    }
+
+  
+
+   
+.stackContainer .ms-Button {
+  margin-left: 8px;
+}
+
+
+
+.trpreqfrm {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.files-area{
+	width: 30%;
+	margin: 0 auto;
+}
+.file-block{
+	border-radius: 10px;
+	background-color: rgba(144, 163, 203, 0.2);
+	margin: 5px;
+	color: initial;
+	display: inline-flex;
+	& > span.name{
+		padding-right: 10px;
+		width: max-content;
+		display: inline-flex;
+	}
+}
+.file-delete{
+	display: flex;
+	width: 24px;
+	color: initial;
+	background-color: #6eb4ff00;
+	font-size: large;
+	justify-content: center;
+	margin-right: 3px;
+	cursor: pointer;
+	&:hover{
+		background-color: rgba(144, 163, 203, 0.2);
+		border-radius: 10px;
+	}
+	& > span{
+		transform: rotate(45deg);
+	}
+}
+
+.required{
+   
+    color: rgb(168, 0, 0);
+   
+}
+
+.heading {
+	color: #015aaa;
+	font-size: 18px;
+}
+
+.formlabel {
+	font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(50, 49, 48);
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0px;
+    display: block;
+    padding: 5px 0px;
+    overflow-wrap: break-word;
+}
+
+.tabltr{
+width:550px
+
+}
+
+
